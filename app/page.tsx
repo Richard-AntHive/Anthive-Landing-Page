@@ -46,7 +46,7 @@ export default function LandingPage() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-[#202F36] text-white">
+    <div className="flex flex-col min-h-screen bg-[#202F36] text-white w-full overflow-x-hidden">
       <header className="sticky top-0 z-40 w-full border-b border-white/10 bg-[#202F36] text-white">
         <div className="container mx-auto flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
           <div className="flex gap-2 items-center text-xl font-bold">
