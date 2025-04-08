@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunito.className}>{children}</body>
+      {/* <head> element removed as Next.js automatically handles icon.png in app/ */}
+      <body className={nunito.className} suppressHydrationWarning={true}>
+        {children}
+      </body>
     </html>
   );
 }
