@@ -81,8 +81,7 @@ export default function LandingPage() {
                     <span className="text-gradient bg-gradient-to-r from-white to-gray-300">AntHive</span>
                   </h1>
                   <p className="max-w-[600px] text-white/80 md:text-xl">
-                    Extract text from PDFs, YouTube videos, or recorded audio, and automatically turn that content into
-                    organized notes, flashcards, summaries, quizzes, and audio for review.
+                   Students can compete with friends in real-time quiz battles, share study folders, and climb leaderboards—turning learning into a fun, social experience. With just a few clicks, they can extract text from PDFs, YouTube videos, or recorded audio and instantly transform it into organized notes, flashcards, summaries, quizzes, and even audio-based study content.
                   </p>
                 </div>
                 <div className="flex flex-col space-y-2 min-[400px]:flex-row min-[400px]:space-y-0 min-[400px]:space-x-4">
